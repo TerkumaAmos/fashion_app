@@ -16,24 +16,24 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _selectedIndex = 0; // Track the selected logo index
-  int _selectedNavIndex = 2; // Default to the central "plus" icon (index 2)
-
+  int _selectedIndex = 0; 
+  int _selectedNavIndex = 2;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Color(0xFF1A252F), // Dark background color
+        color: Color(0xFF1A252F), 
         child: SafeArea(
-          child: SingleChildScrollView( // Added to prevent overflow
+          child: SingleChildScrollView( 
             child: Column(
               children: [
-                // Location Section
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Row(

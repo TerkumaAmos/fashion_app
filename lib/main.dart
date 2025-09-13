@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             SizedBox(width: 4),
                             Text(
-                              'Abuja, Nigebria',
+                              'Lagos, Nigebria',
                               style: TextStyle(color: Colors.white),
                             ),
                           ],
